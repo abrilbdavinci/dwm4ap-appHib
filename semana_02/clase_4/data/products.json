@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Teclado dos",
+    "description": "Teclado Mecánico",
+    "price": 25000,
+    "stock": 25,
+    "id": "c3da0a35-0997-484f-b713-45172b8a9f46"
+  },
+  {
+    "name": "Mouse dos",
+    "description": "Mouse Mecánico",
+    "price": 25000,
+    "stock": 25,
+    "id": ""
+  }
+]
