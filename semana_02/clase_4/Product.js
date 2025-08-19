@@ -35,19 +35,16 @@ class Product{
         this.products = await this.readJSON();
         return this.products
     }
-
     async getProductById(id){
         this.products = await this.readJSON();
-        const product = this.products.find(item => product.id == id);
+        const product = this.products.find( item => item.id == id );
         return product ? product : {};
     }
-
     deleteProductById(id){
 
     }
-
-    updateProductById(id){
-
+    updateProductById(id, product){
+        
     }
 }
 
