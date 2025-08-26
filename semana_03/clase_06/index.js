@@ -2,6 +2,7 @@ const Product = require('./Product');
 const model = new Product();
 
 
+
 console.log('Inicio de la Promesa');
 /* model.getProducts().then( lista => {
     console.table(lista);
