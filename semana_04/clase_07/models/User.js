@@ -11,7 +11,6 @@ const miEsquema = new Schema({
     foto: String
 });
 
-
 const User = mongoose.model('User', miEsquema);
 
 module.exports = User;
